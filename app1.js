@@ -1,3 +1,5 @@
+//This App Script for Google Sheets allows you to determine the author of the last edit in a specified cell
+
 function getLastEditAuthor() {
    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
    var range = sheet.getRange('V5'); // Replace 'A1' with your cell address
